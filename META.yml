@@ -1,0 +1,28 @@
+---
+abstract: 'FreeSWITCH client'
+author:
+  - 'Michal Špaček <skim@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: FreeSWITCH-Client
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  IO::Select: 1.16
+  IO::Socket::INET: 1.16
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=FreeSWITCH-Client
+  homepage: https://github.com/tupinek/FreeSWITCH-Client
+  repository: git://github.com/tupinek/FreeSWITCH-Client
+version: 1.00

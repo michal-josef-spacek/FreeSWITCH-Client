@@ -1,4 +1,5 @@
 1.01
+- Rewrite build system to Module::Install.
 
 1.0
 - Version from freeswitch git repository.
