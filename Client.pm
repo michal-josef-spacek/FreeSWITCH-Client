@@ -4,7 +4,7 @@ use IO::Socket::INET;
 use IO::Select;
 use Data::Dumper;
 
-$VERSION = "1.0";
+$VERSION = "1.01";
 
 sub init($;$) {
   my $proto = shift;
